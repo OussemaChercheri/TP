@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire</title>
+    
+</head>
+<body>
+    <form method="post" action="">
+        <p>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom">
+        </p>
+        <p>
+            <label for="prenom">Prenom :</label>
+            <input type="text" id="prenom" name="prenom">
+        </p>
+        <p>
+            Sexe:
+            <input type="radio" name="sexe" value="Homme" id="homme"><label for="homme">Homme</label><br>
+            <input type="radio" name="sexe" value="Femme" id="femme"><label for="femme">Femme</label><br>
+        </p>
+        <p>
+            Veuillez indiquer la tranche d'âge dans laquelle vous vous situez :
+            <input type="radio" name="age" value="moins15" id="moins15"> <label for="moins15">Moins de 15 ans</label><br>
+            <input type="radio" name="age" value="medium15-25" id="medium15-25"> <label for="medium15-25">15-25 ans</label><br>
+            <input type="radio" name="age" value="medium25-40" id="medium25-40"> <label for="medium25-40">25-40 ans</label><br>
+            <input type="radio" name="age" value="plus40" id="plus40"> <label for="plus40">Plus de 40 ans</label>
+        </p>
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+</html>
